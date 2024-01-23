@@ -16,3 +16,17 @@ h1 {
     background-size: contain; 
     border-top: 1px solid rgba(0,0,0,0.08);
 }
+ 
+#ex1 img {
+    position: absolute;
+    left: -100%;
+    z-index: 1; 
+    top: 380px; 
+    animation: drive 8s linear infinite;
+  }
+  
+  @keyframes drive {
+    to {
+      left: 100%;
+    }
+  }

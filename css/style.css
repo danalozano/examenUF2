@@ -18,15 +18,15 @@ h1 {
 }
  
 #ex1 img {
+    width: 30%;
     position: absolute;
-    left: -100%;
+    left: 100%;
     z-index: 1; 
-    top: 380px; 
     animation: drive 8s linear infinite;
   }
   
   @keyframes drive {
     to {
-      left: 100%;
+      left: -100%;
     }
   }

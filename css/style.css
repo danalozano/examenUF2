@@ -8,3 +8,12 @@ html, body {
 h1 {
     font-size: 2em;
 }
+
+#ex1 {
+    position: relative;
+    overflow: hidden;
+    padding: 20% 0;
+    background: url(/img/banner.jpg) no-repeat center;
+    background-size: contain; 
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
